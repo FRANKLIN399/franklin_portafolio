@@ -111,6 +111,20 @@ export default function Portfolio() {
             ></div>
           ))}
         </div>
+
+
+
+        {/*foto de perfil*/}
+
+        <div className='contenedor-foto-perfil'>
+          <div className='foto-perfil'> 
+            <img 
+            src="/franklin.png" 
+            alt='foto de franklin' 
+            className='img-perfil'
+            />
+          </div>
+        </div>
         
         <div className="relative z-10 text-center px-4 max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
